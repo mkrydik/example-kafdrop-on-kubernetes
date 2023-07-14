@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kafdrop
-  namespace: thingsboard
+  namespace: NAMESPACE
 spec:
   replicas: 1
   selector:
